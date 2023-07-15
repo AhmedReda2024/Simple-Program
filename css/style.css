@@ -1,0 +1,67 @@
+/***** START GLOBAL *****/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/***** End GLOBAL *****/
+
+main {
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#quote {
+  min-height: 100vh;
+}
+
+#quote .quotation {
+  display: flex;
+  justify-content: center;
+}
+
+#quote .quote-text {
+  text-align: center;
+  padding-block: 50px;
+}
+#quote .quote-text h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+#quote .quote-text p {
+  padding-block: 1.875rem;
+  font-size: 25px;
+}
+h4,
+h5 {
+  text-align: center;
+  font-size: 40px;
+}
+#quote .quote-text button {
+  padding: 30px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: rgb(14, 14, 215);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+#quote .quote-text button:hover {
+  background-color: darkgreen;
+}
